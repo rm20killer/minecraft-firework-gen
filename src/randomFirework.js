@@ -33,7 +33,7 @@ function geneateFirework()
         //put colours to string with , in between
         ColorsString = Colors.join(",")
 
-        stringExport = `/summon firework_rocket ~ ~ ~ {LifeTime:${LifeTime},FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:${Flight},Explosions:[{Type:${Type},Flicker:${Flicker},Trail:${Trail},Colors:[I;${ColorsString}]}]}}}}`
-        console.log(stringExport)       
+        stringExport = `summon firework_rocket ~ ~ ~ {LifeTime:${LifeTime},FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:${Flight},Explosions:[{Type:${Type},Flicker:${Flicker},Trail:${Trail},Colors:[I;${ColorsString}]}]}}}}`
+        // console.log(stringExport)       
     }
 }

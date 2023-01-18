@@ -1,3 +1,4 @@
 const randomFirework = require("./src/randomFirework")
-
-randomFirework.execute();
+const animate = require("./src/animate")
+// randomFirework.execute();#
+animate.execute();
