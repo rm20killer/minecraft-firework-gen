@@ -1,0 +1,244 @@
+{
+    "Pride": [
+        {
+            "Name": "Agender",
+            "colour": [
+                "black",
+                "light_gray",
+                "white",
+                "lime",
+                "white",
+                "light_gray",
+                "black"
+            ]
+        },
+        {
+            "Name": "aroace",
+            "colour": [
+                "orange",
+                "yellow",
+                "white",
+                "light_blue",
+                "blue"
+            ]
+        },
+        {
+            "Name": "Aromantic",
+            "colour": [
+                "green",
+                "light_green",
+                "white",
+                "light_gray",
+                "black"
+            ]
+        },
+        {
+            "Name": "Asexual",
+            "colour": [
+                "black",
+                "light_gray",
+                "white",
+                "purple"
+            ]
+        },
+        {
+            "Name": "Bigender",
+            "colour": [
+                "pink",
+                "yellow",
+                "white",
+                "magenta",
+                "light_blue"
+            ]
+        },
+        {
+            "Name": "Bisexual",
+            "colour": [
+                "pink",
+                "magenta",
+                "blue"
+            ]
+        },
+        {
+            "Name": "Demigen",
+            "colour": [
+                "gray",
+                "light_gray",
+                "yellow",
+                "white",
+                "yellow",
+                "light_gray",
+                "gray"
+            ]
+        },
+        {
+            "Name": "Demisexual",
+            "colour": [
+                "black",
+                "white",
+                "purple",
+                "light_gray"
+            ],
+            "Info": {
+                "Colour": [
+                    {
+                        "Colour": "black",
+                        "position": "left",
+                        "Shape": "Triangle"
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Genderfluid",
+            "colour": [
+                "pink",
+                "white",
+                "purple",
+                "black",
+                "blue"
+            ]
+        },
+        {
+            "Name": "Genderqueer",
+            "colour": [
+                "purple",
+                "white",
+                "green"
+            ]
+        },
+        {
+            "Name": "Intersex",
+            "colour": [
+                "yellow",
+                "purple",
+                "yellow"
+            ],
+            "Info": {
+                "Colour": [
+                    {
+                        "Colour": "purple",
+                        "position": "middle",
+                        "Shape": "Circle"
+                    }
+                ]
+            }
+        },
+        {
+            "Name":"Lesbian",
+            "colour": [
+                "red",
+                "orange",
+                "white",
+                "pink",
+                "purple"
+            ]
+        },
+        {
+            "Name":"MLM",
+            "colour": [
+                "green",
+                "lime",
+                "cyan",
+                "white",
+                "cyan",
+                "light_blue",
+                "blue"
+            ]
+        },
+        {
+            "Name":"Nonbinary",
+            "colour": [
+                "yellow",
+                "white",
+                "purple",
+                "black"
+            ]
+        },
+        {
+            "Name":"Pansexual",
+            "colour": [
+                "pink",
+                "yellow",
+                "blue"
+            ]
+        },
+        {
+            "Name":"Polysexual",
+            "colour": [
+                "white",
+                "yellow",
+                "light_blue",
+                "red",
+                "purple"
+            ],
+            "Info": {
+                "Colour": [
+                    {
+                        "Colour": "white",
+                        "position": "left",
+                        "Shape": "Triangle"
+                    },
+                    {
+                        "Colour": "yellow",
+                        "position": "right",
+                        "Shape": "Heart"
+                    }
+                ]
+            }
+        },
+        {
+            "Name":"Queer",
+            "colour":[
+                "black",
+                "light_blue",
+                "cyan",
+                "lime",
+                "white",
+                "orange",
+                "red",
+                "pink",
+                "black"
+            ]
+        },
+        {
+            "Name":"Transgender",
+            "colour": [
+                "light_blue",
+                "pink",
+                "white",
+                "pink",
+                "light_blue"
+            ]
+        },
+        {
+            "Name":"Rainbow",
+            "colour": [
+                "red",
+                "orange",
+                "yellow",
+                "green",
+                "blue",
+                "purple"
+            ]
+        },
+        {
+            "Name":"progress",
+            "colour": [
+                "yellow",
+                "purple",
+                "white",
+                "pink",
+                "light_blue",
+                "brown",
+                "black",
+                "red",
+                "orange",
+                "yellow",
+                "green",
+                "blue",
+                "purple"
+            ]
+        }
+    ]
+}

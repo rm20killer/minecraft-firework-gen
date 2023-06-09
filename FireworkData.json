@@ -1,0 +1,29 @@
+{
+    "colour": {
+        "red":11743532,
+        "orange":15435844,
+        "yellow":14602026,
+        "lime":4312372,
+        "green":3887386,
+        "light_blue":6719955,
+        "cyan":2651799,
+        "blue":2437522,
+        "purple":8073150,
+        "magenta":12801229,
+        "pink":14188952,
+        "black":1973019,
+        "gray":4408131,
+        "light_gray":11250603,
+        "white":15790320,
+        "brown":5320730
+    },
+    "type":
+    {
+        "Small_Ball":0,
+        "Large_Ball":1,
+        "star":2,
+        "creeper":3,
+        "Burst":4
+    }
+
+}

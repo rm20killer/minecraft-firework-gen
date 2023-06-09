@@ -1,0 +1,1 @@
+{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;6719955,14188952,15790320,14188952,6719955]}]}}
