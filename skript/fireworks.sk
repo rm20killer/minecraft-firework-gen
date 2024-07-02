@@ -1,0 +1,1637 @@
+
+command /song-play-pheonix:
+    trigger:
+        execute player command "beatmap play pheonix"
+        set {ShowStarted} to true
+
+
+        FCSBLineRoateUp(20,flame,20,2)
+        wait 10 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 110 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b},{Colors:[I;6719955,14188952,15790320,14188952,6719955],Type:1b}],Flight:1b}}}}"
+        wait 60 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 106 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b}],Flight:1b}}}}"
+        wait 58 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 102 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b}],Flight:1b}}}}"
+        wait 58 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 98 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b},{Colors:[I;6719955,14188952,15790320,14188952,6719955],Type:1b}],Flight:1b}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 146 94 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b},{Colors:[I;6719955,14188952,15790320,14188952,6719955],Type:1b}],Flight:1b}}}}"
+        wait 29 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 65 28 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b}],Flight:1b}}}}"
+        wait 29 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 158 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 134 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 59 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 162 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;8073150]}]}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 130 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;8073150]}]}}}}"
+        wait 23 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;11250603]}]}}}}"
+        wait 9 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 165 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        FCSBLineRoateUp(20,flame,11,3)
+        wait 11 ticks
+        {ShowStarted} is true
+        ConfettiDrawAll(lava,vector(0,1,0),7)
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 166 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;14602026]}]}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 159 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;3887386]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 90 20 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;11743532,15435844,14602026,4312372,6719955,2437522,8073150],Type:1}],Flight:1}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 165 90 20 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;11743532,15435844,14602026,4312372,6719955,2437522,8073150],Type:1}],Flight:1}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 94 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;11743532,15435844,14602026,4312372,6719955,2437522,8073150],Type:1}],Flight:1}}}}"
+        wait 8 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;14602026]}]}}}}"
+        wait 22 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 159 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;3887386]}]}}}}"
+        wait 22 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 94 20 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;11743532,15435844,14602026,4312372,6719955,2437522,8073150],Type:1}],Flight:1}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 25 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;14602026]}]}}}}"
+        ConfettiDrawMid(lava,vector(0,1,0),7)
+        wait 22 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 159 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;3887386]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 29 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 25 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 27 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;14602026]}]}}}}"
+        wait 20 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 159 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;3887386]}]}}}}"
+        wait 44 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 89 41 {LifeTime:36,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;11743532,15435844,14602026,4312372,6719955,2437522,8073150],Type:1}],Flight:1}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 173 89 41 {LifeTime:36,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;11743532,15435844,14602026,4312372,6719955,2437522,8073150],Type:1}],Flight:1}}}}"
+        wait 22 ticks
+        {ShowStarted} is true
+        FCSBLineRoateUp(20,soul_fire_flame,16,3)
+        wait 1 ticks
+        {ShowStarted} is true
+        FCSBLineRoateUp(20,cherry_leaves,16,3)
+        wait 1 ticks
+        {ShowStarted} is true
+        FCSBLineRoateUp(20,end_rod,16,3)
+        wait 12 ticks
+        {ShowStarted} is true
+        ConfettiDrawBack(soul_fire_flame,vector(0,1,0),7)
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 65 28 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b}],Flight:1b}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 90 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;6719955,14188952,15790320,14188952,6719955]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 165 90 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;6719955,14188952,15790320,14188952,6719955]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;14188952]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 110 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;6719955]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;6719955]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 159 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;14188952]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 90 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;6719955,14188952,15790320,14188952,6719955]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 165 90 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;6719955,14188952,15790320,14188952,6719955]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;14188952]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15790320]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 110 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;6719955]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;6719955]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 159 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;14188952]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 65 32 {LifeTime:36,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b}],Flight:1b}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 173 65 32 {LifeTime:36,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b},{Colors:[I;6719955],Type:4b},{Colors:[I;14188952],Type:4b},{Colors:[I;15790320],Type:4b}],Flight:1b}}}}"
+        wait 22 ticks
+        {ShowStarted} is true
+        ConfettiDrawBack(soul_fire_flame,vector(0,1,0),7)
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-trans"
+        wait 2 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 100 40 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;6719955,14188952,15790320,14188952,6719955]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 40 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;6719955,14188952,15790320,14188952,6719955]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 120 40 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;6719955,14188952,15790320,14188952,6719955]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 120 40 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;6719955,14188952,15790320,14188952,6719955]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        ConfettiDrawMid(lava,vector(0,1,0),7)
+        wait 22 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;6719955],Flicker:0,Trail:0,Type:1},{Colors:[I;14188952],Flicker:0,Trail:0,Type:1},{Colors:[I;15790320],Flicker:0,Trail:0,Type:1}],Flight:2}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;6719955],Flicker:0,Trail:0,Type:1},{Colors:[I;14188952],Flicker:0,Trail:0,Type:1},{Colors:[I;15790320],Flicker:0,Trail:0,Type:1}],Flight:2}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;6719955],Flicker:0,Trail:0,Type:1},{Colors:[I;14188952],Flicker:0,Trail:0,Type:1},{Colors:[I;15790320],Flicker:0,Trail:0,Type:1}],Flight:2}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 110 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;6719955],Flicker:0,Trail:0,Type:1},{Colors:[I;14188952],Flicker:0,Trail:0,Type:1},{Colors:[I;15790320],Flicker:0,Trail:0,Type:1}],Flight:2}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;6719955],Flicker:0,Trail:0,Type:1},{Colors:[I;14188952],Flicker:0,Trail:0,Type:1},{Colors:[I;15790320],Flicker:0,Trail:0,Type:1}],Flight:2}}}}"
+        wait 22 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;6719955],Flicker:0,Trail:0,Type:1},{Colors:[I;14188952],Flicker:0,Trail:0,Type:1},{Colors:[I;15790320],Flicker:0,Trail:0,Type:1}],Flight:2}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 159 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;6719955],Flicker:0,Trail:0,Type:1},{Colors:[I;14188952],Flicker:0,Trail:0,Type:1},{Colors:[I;15790320],Flicker:0,Trail:0,Type:1}],Flight:2}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        ConfettiDrawAll(lava,vector(0,1,0),7)
+        FCSBLineRoateUp(20,dragon_breath,50,1)
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-bi"
+        wait 15 ticks
+        {ShowStarted} is true
+        ConfettiDrawMid(dragon_breath,vector(0,1,0),7)
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 95 28 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;14188952,12801229,2437522]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 158 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;14188952,12801229,2437522]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 134 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;14188952,12801229,2437522]}]}}}}"
+        wait 18 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 162 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;14188952,12801229,2437522]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;14188952,12801229,2437522]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 80 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16659905]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 100 40 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16659905]}]}}}}"
+        wait 33 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 40 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16659905]}]}}}}"
+        wait 6 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 120 40 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16659905]}]}}}}"
+        wait 16 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 120 40 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16659905]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 100 40 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16659905]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 40 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 120 40 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 6 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 120 40 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 12 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 109 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 8 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 158 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 134 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 162 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 80 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 5 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145 114 37 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;14188952,12801229,2437522]}]}}}}"
+        wait 5 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 143 113 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 143 115 39 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 108 34 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,12801229,2437522],Trail:1b,Type:4b},{Colors:[I;14188952,12801229,2437522],Trail:1b,Type:0b},{Colors:[I;14188952,12801229,2437522],Trail:1b,Type:4b},{Colors:[I;14188952,12801229,2437522],Trail:1b,Type:4b}],Flight:1b}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 115 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,12801229,2437522],Trail:1b,Type:4b},{Colors:[I;14188952,12801229,2437522],Trail:1b,Type:0b},{Colors:[I;14188952,12801229,2437522],Trail:1b,Type:4b},{Colors:[I;14188952,12801229,2437522],Trail:1b,Type:4b}],Flight:1b}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 110 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,12801229,2437522],Trail:1b,Type:4b},{Colors:[I;14188952,12801229,2437522],Trail:1b,Type:0b},{Colors:[I;14188952,12801229,2437522],Trail:1b,Type:4b},{Colors:[I;14188952,12801229,2437522],Trail:1b,Type:4b}],Flight:1b}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 100 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,12801229,2437522],Trail:1b,Type:4b},{Colors:[I;14188952,12801229,2437522],Trail:1b,Type:0b},{Colors:[I;14188952,12801229,2437522],Trail:1b,Type:4b},{Colors:[I;14188952,12801229,2437522],Trail:1b,Type:4b}],Flight:1b}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 100 28 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;14188952,12801229,2437522]}]}}}}"
+        wait 3 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 158 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16711680]}]}}}}"
+        ConfettiDrawMid(lava,vector(0,1,0),8)
+        wait 8 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 134 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16776960]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 162 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16711935]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;65280]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 100 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;255]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 100 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;4312372]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 165 100 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;1973019]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 110 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;11250603]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        ConfettiDrawMid(lava,vector(0,1,0),8)
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145 105 37 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;14188952]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 143 112 43 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;12801229]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 148 115 33 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;4408131]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 142 110 33 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b},{Colors:[I;6719955,14188952,15790320,14188952,6719955],Type:1b}],Flight:1b}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 115 37 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b}],Flight:1b}}}}"
+        wait 8 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 150 107 34 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;11743532,15435844,14602026,4312372,6719955,2437522,8073150],Type:1}],Flight:1}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        ConfettiDrawMid(lava,vector(0,1,0),8)
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 141 110 36 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 2 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 144 110 39 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 2 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 150 113 42 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;14602026]}]}}}}"
+        wait 3 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 151 112 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;3887386]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 147 109 42 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 144 115 43 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 33 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 142 110 33 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b},{Colors:[I;6719955,14188952,15790320,14188952,6719955],Type:1b}],Flight:1b}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 137 110 33 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b},{Colors:[I;6719955,14188952,15790320,14188952,6719955],Type:1b}],Flight:1b}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 148 110 33 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b},{Colors:[I;6719955,14188952,15790320,14188952,6719955],Type:1b}],Flight:1b}}}}"
+        wait 58 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 142 110 33 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b},{Colors:[I;6719955,14188952,15790320,14188952,6719955],Type:1b}],Flight:1b}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 137 110 33 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b},{Colors:[I;6719955,14188952,15790320,14188952,6719955],Type:1b}],Flight:1b}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 148 110 33 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b},{Colors:[I;6719955,14188952,15790320,14188952,6719955],Type:1b}],Flight:1b}}}}"
+        ConfettiDrawMid(lava,vector(0,1,0),7)
+        wait 33 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 65 28 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b},{Colors:[I;16711680,16722432],FadeColors:[I;16738307],Flicker:1b,Type:4b},{Colors:[I;16731919,16731392],FadeColors:[I;16740096],Trail:1b,Type:4b},{Colors:[I;16746496,16755717],FadeColors:[I;16766208],Flicker:1b,Type:4b},{Colors:[I;16768256,16774920],FadeColors:[I;11796224],Trail:1b,Type:4b},{Colors:[I;10092288,6291203],FadeColors:[I;65306],Flicker:1b,Type:4b},{Colors:[I;65416,65518],FadeColors:[I;43775],Trail:1b,Type:4b},{Colors:[I;28671,17663],FadeColors:[I;255],Type:4b},{Colors:[I;4607,10027263],FadeColors:[I;16711927],Type:4b},{Colors:[I;16711927,16711884],FadeColors:[I;16711688],Type:4b}],Flight:1b}}}}"
+        wait 22 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 25 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 26 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;14602026]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 159 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;3887386]}]}}}}"
+        wait 22 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;14602026]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 159 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;3887386]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 106 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b},{Colors:[I;6719955,14188952,15790320,14188952,6719955],Type:1b}],Flight:1b}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 102 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b}],Flight:1b}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 98 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b}],Flight:1b}}}}"
+        wait 3 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 94 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b},{Colors:[I;6719955,14188952,15790320,14188952,6719955],Type:1b}],Flight:1b}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        ConfettiDrawMid(lava,vector(0,1,0),7)
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;14602026]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 159 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;3887386]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;14602026]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 159 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;3887386]}]}}}}"
+        wait 18 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 158 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 134 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 162 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;8073150]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;8073150]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;11250603]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;15790320]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 165 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;15790320]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 110 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b},{Colors:[I;6719955,14188952,15790320,14188952,6719955],Type:1b}],Flight:1b}}}}"
+        wait 3 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 106 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b}],Flight:1b}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 146 102 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b}],Flight:1b}}}}"
+        wait 24 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-ace"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-ace"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-ace"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-ace"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-ace"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-ace"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-ace"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-ace"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-ace"
+        wait 1 ticks
+        {ShowStarted} is true
+        ConfettiDrawAll(dragon_breath,vector(0,1,0),7)
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 158 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;1973019]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 134 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;1973019]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 162 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;1973019]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;11250603]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;11250603]}]}}}}"
+        FCSBLineRoateUp(20,dragon_breath,14,3)
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;11250603]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 165 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15790320]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 158 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 134 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15790320]}]}}}}"
+        wait 3 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 162 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 22 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,8073150]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 165 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,8073150]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 134 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 162 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;1973019],Type:0},{Colors:[I;11250603],Type:1}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;11250603],Type:0},{Colors:[I;15790320],Type:1}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;15790320],Type:0},{Colors:[I;8073150],Type:1}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 165 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,8073150]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 110 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,8073150]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 106 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 102 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,8073150]}]}}}}"
+        wait 6 ticks
+        {ShowStarted} is true
+        FCSBLineRoateUp(20,dragon_breath,7,6)
+        wait 9 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;1973019]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;11250603]}]}}}}"
+        wait 6 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15790320]}]}}}}"
+        wait 12 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 6 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 159 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,8073150]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;11250603],Type:0},{Colors:[I;15790320],Type:1}]}}}}"
+        wait 8 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;1973019]}]}}}}"
+        ConfettiDrawMid(lava,vector(0,1,0),7)
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,8073150]}]}}}}"
+        wait 8 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 159 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;11250603]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;11250603],Type:0},{Colors:[I;15790320],Type:1}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;1973019]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 159 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 119 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 173 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;11250603]}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;11250603],Type:0},{Colors:[I;15790320],Type:1}]}}}}"
+        wait 11 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 100 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 18 ticks
+        {ShowStarted} is true
+        ConfettiDrawAll(lava,vector(0,1,0),7)
+        FCSBLineRoateUp(20,cherry_leaves,50,1)
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-lesbian"
+        wait 1 ticks
+        {ShowStarted} is true
+        ConfettiDrawMid(cherry_leaves,vector(0,1,0),7)
+        wait 10 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 65 28 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b},{Colors:[I;11743532,15435844,15790320,14188952,8073150],Type:4b}],Flight:1b}}}}"
+        wait 8 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 168 93 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 125 87 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 155 91 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15790320]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 135 89 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;14188952]}]}}}}"
+        wait 6 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 160 85 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;12801229]}]}}}}"
+        wait 9 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 157 93 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 141 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 160 85 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 123 85 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 158 94 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15790320]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 87 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;14188952]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 163 88 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;12801229]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 156 92 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 142 96 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 164 89 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 88 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 158 94 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15790320]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 138 92 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;14188952]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 91 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;12801229]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 129 91 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 152 88 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 135 89 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 91 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 129 91 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 160 96 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15790320]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 134 88 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;14188952]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 161 86 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;12801229]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 124 86 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 154 90 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 138 92 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 163 88 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 92 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 157 93 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15790320]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 132 86 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;14188952]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 162 87 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;12801229]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 132 94 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 154 90 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 141 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 167 92 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 123 85 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 151 87 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15790320]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 142 96 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;14188952]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 167 92 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;12801229]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 123 85 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 159 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 105 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 156 95 33 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 136 95 33 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:0,Trail:0,Colors:[I;11743532,15435844,15790320,14188952,8073150]}]}}}}"
+        wait 58 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 110 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:2b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b},{Colors:[I;6719955,14188952,15790320,14188952,6719955],Type:1b}],Flight:1b}}}}"
+        wait 58 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 106 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:2b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b},{Colors:[I;6719955,14188952,15790320,14188952,6719955],Type:1b}],Flight:1b}}}}"
+        wait 58 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 102 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:2b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b},{Colors:[I;6719955,14188952,15790320,14188952,6719955],Type:1b}],Flight:1b}}}}"
+        wait 44 ticks
+        {ShowStarted} is true
+        FCSBLineRoateUp(20,flame,20,2)
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 158 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 134 90 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 162 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;8073150]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;8073150]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;11250603]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;15790320]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 165 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;15790320]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 168 93 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:1,Colors:[I;6719955]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 125 87 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:0,Trail:0,Colors:[I;4408131]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 155 91 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]},{Type:0,Flicker:1b,Colors:[I;15790320]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 135 89 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;11250603]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 129 91 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;3887386]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 160 96 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:0,Trail:0,Colors:[I;4312372]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 134 88 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;11250603]},{Type:0,Flicker:1b,Colors:[I;15790320]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 161 86 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:1b,Colors:[I;11743532]},{Type:1,Flicker:0,Trail:0,Colors:[I;6719955]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 124 86 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Flicker:0,Trail:0,Colors:[I;11250603]}]}}}}"
+        wait 14 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 154 90 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:1b,Colors:[I;14188952]},{Type:1,Flicker:0,Trail:0,Colors:[I;14602026]}]}}}}"
+        wait 27 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 138 92 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;3887386]},{Type:0,Flicker:1b,Colors:[I;15790320]}]}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 163 88 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;14188952,14602026,2437522]}]}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 130 92 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;6719955]},{Type:0,Flicker:1b,Colors:[I;15790320]}]}}}}"
+        wait 2 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 157 93 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 132 86 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;3887386]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 162 87 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;3887386,15790320,11250603,1973019]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 132 94 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Colors:[I;11743532]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 88 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,4312372,15790320,11250603,1973019]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 158 94 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;4408131]},{Type:0,Flicker:1b,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 138 92 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:1,Colors:[I;12801229]}]}}}}"
+        wait 8 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 91 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:1,Colors:[I;8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 129 91 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15790320]},{Type:0,Flicker:1b,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 152 88 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:0,Trail:0,Colors:[I;3887386]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 135 89 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;4408131]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 91 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;1973019]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        ConfettiDrawMid(lava,vector(0,1,0),7)
+        wait 11 ticks
+        {ShowStarted} is true
+        ConfettiDrawMid(lava,vector(0,1,0),7)
+        wait 33 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 138 92 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 166 91 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;14602026]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 129 91 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;3887386]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 152 88 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 135 89 41 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 15 ticks
+        {ShowStarted} is true
+        FCSBLineRoateUp(20,flame,20,2)
+        wait 7 ticks
+        {ShowStarted} is true
+        FCSBLineRoateUp(20,flame,20,2)
+        wait 51 ticks
+        {ShowStarted} is true
+        ConfettiDrawAll(lava,vector(0,1,0),7)
+        wait 22 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 131 87 36 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,8073150]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 129 93 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 157 88 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:0,Trail:0,Colors:[I;8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 102 32 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Colors:[I;14602026]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 158 93 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:1b,Colors:[I;4408131]},{Type:1,Flicker:0,Trail:0,Colors:[I;11743532]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 132 93 39 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]},{Type:0,Flicker:1b,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 148 106 33 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:0,Trail:0,Colors:[I;16383]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 104 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;15435844]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 134 102 39 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;14188952]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 121 106 33 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Colors:[I;3887386]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 122 105 39 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;14602026,8073150,14602026]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 121 108 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:1,Colors:[I;11743532]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145 109 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Flicker:0,Trail:0,Colors:[I;1973019]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 141 107 34 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Flicker:0,Trail:0,Colors:[I;12801229]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 159 100 39 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;16383]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 162 105 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:1b,Colors:[I;11250603]},{Type:1,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 170 85 37 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;15790320,14602026,6719955,11743532,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 131 104 34 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;4408131,11250603,14602026,15790320,14602026,11250603,4408131]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 140 104 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Colors:[I;16383]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 168 90 39 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;14188952]},{Type:0,Flicker:1b,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 136 101 33 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,14602026,3887386,2437522,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 138 88 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 132 86 34 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 2 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 151 91 34 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;6719955]}]}}}}"
+        wait 13 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 172 94 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Colors:[I;15435844]}]}}}}"
+        FCSBLineRoateUp(20,flame,20,2)
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 141 99 39 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:0,Trail:0,Colors:[I;6719955]}]}}}}"
+        FCSBLineRoateUp(20,flame,20,2)
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 160 88 33 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:0,Trail:0,Colors:[I;11743532]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 140 93 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Colors:[I;8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 141 91 33 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,15790320,8073150,11250603]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 129 98 36 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:1b,Colors:[I;15790320]},{Type:1,Flicker:0,Trail:0,Colors:[I;4408131]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 121 100 31 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16383]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 135 107 31 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,15790320,8073150,11250603]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket null null null {LifeTime:null,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,15790320,8073150,11250603]}]}}}}"
+        ConfettiDrawMid(lava,vector(0,1,0),7)
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 156 86 31 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,15790320,8073150,11250603]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 161 88 39 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;11743532]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 144 100 31 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:1b,Colors:[I;15790320]},{Type:1,Flicker:0,Trail:0,Colors:[I;4312372]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 158 106 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:1,Colors:[I;3887386]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 140 94 37 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:1,Colors:[I;4312372]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 121 101 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;1973019]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 171 93 40 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Colors:[I;8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 138 92 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b}],Flight:1b}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 163 88 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b}],Flight:1b}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 92 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b}],Flight:1b}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 157 93 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b}],Flight:1b}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 132 86 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b}],Flight:1b}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 162 87 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b}],Flight:1b}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 138 92 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Colors:[I;14188952,11743532,15435844,14602026],Type:1b},{Colors:[I;4312372,6719955,2437522,8073150,1973019,5320730],Type:1b}],Flight:1b}}}}"
+        wait 4 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 163 92 31 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,14602026,3887386,2437522,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 169 86 40 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 171 92 32 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        FCSBLineRoateUp(20,firework,20,2)
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 1 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:execute as @e[type=minecraft:armor_stand,tag=pride_stage_mid] at @s run function pride:wings/pride-wing-rainbow"
+        wait 0 ticks
+        {ShowStarted} is true
+        FCSBLineRoateUp(20,firework,40,1)
+        wait 86 ticks
+        {ShowStarted} is true
+        ConfettiDrawAll(firework,vector(0,1,0),7)
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 167 98 36 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 126 86 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:1b,Colors:[I;1973019]},{Type:1,Flicker:0,Trail:0,Colors:[I;8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 153 88 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:1b,Colors:[I;4408131]},{Type:1,Flicker:0,Trail:0,Colors:[I;16383]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 148 109 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;12801229]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 172 103 40 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,6719955,2651799,4312372,15790320,15435844,11743532,14188952,1973019]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 146 97 36 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Flicker:0,Trail:0,Colors:[I;4312372]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 139 95 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:1,Colors:[I;16383]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 138 92 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;14602026]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 163 88 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;15435844,14602026,15790320,6719955,2437522]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 130 92 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:1,Colors:[I;4408131]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 157 93 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Flicker:0,Trail:0,Colors:[I;12801229]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 132 86 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;16383]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 162 87 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:1b,Colors:[I;11250603]},{Type:1,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 138 92 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;15790320,14602026,6719955,11743532,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 109 31 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;4408131,11250603,14602026,15790320,14602026,11250603,4408131]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 165 107 39 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Colors:[I;16383]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 124 95 34 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;14188952]},{Type:0,Flicker:1b,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 136 92 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844,14602026,3887386,2437522,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 160 100 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;15435844]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 157 110 37 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;11743532]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 157 90 36 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;6719955]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 127 110 31 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:1b,Colors:[I;16383]},{Type:1,Flicker:0,Trail:0,Colors:[I;15435844]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 165 90 32 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;6719955]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 154 110 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;4408131]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145.714285714286 88.8571428571429 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;12801229]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145.714285714286 88.5714285714286 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;4312372]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145.714285714286 88.2857142857143 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:1b,Colors:[I;12801229]},{Type:1,Flicker:0,Trail:0,Colors:[I;12801229]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145.714285714286 88 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Colors:[I;6719955]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145.714285714286 87.7142857142858 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;1973019]},{Type:0,Flicker:1b,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145.714285714286 87.4285714285715 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;1973019,11250603,15790320,8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145.714285714286 87.1428571428572 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 137 105 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:0,Trail:0,Colors:[I;8073150]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 171 92 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Colors:[I;14602026]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 152 92 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:1b,Colors:[I;4408131]},{Type:1,Flicker:0,Trail:0,Colors:[I;11743532]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 139 86 36 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;8073150]},{Type:0,Flicker:1b,Colors:[I;15790320]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 123 93 38 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:0,Trail:0,Colors:[I;16383]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 144 108 33 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;15435844]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 168 90 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;14188952]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 120 96 32 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Colors:[I;3887386]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 129 102 37 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;14602026,8073150,14602026]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 133 106 36 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:1,Colors:[I;11743532]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145.714285714286 86.8571428571429 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Flicker:0,Trail:0,Colors:[I;1973019]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145.714285714286 86.5714285714286 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;11743532]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145.714285714286 86.2857142857143 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:1b,Colors:[I;15790320]},{Type:1,Flicker:0,Trail:0,Colors:[I;4312372]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145.714285714286 86 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:1,Colors:[I;3887386]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145.714285714286 85.7142857142858 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:1,Colors:[I;4312372]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145.714285714286 85.4285714285715 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;1973019]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 145.714285714286 85.1428571428572 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:1,Colors:[I;14188952]}]}}}}"
+        wait 7 ticks
+        {ShowStarted} is true
+        execute console command "minecraft:summon minecraft:firework_rocket 162 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;8073150]}]}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 130 95 35 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;8073150]}]}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 130 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;11250603]}]}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 130 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;15790320]}]}}}}"
+        execute console command "minecraft:summon minecraft:firework_rocket 165 80 30 {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:0,Trail:1,Colors:[I;15790320]}]}}}}"
+        wait 340 ticks
+        {ShowStarted} is true
+        AllLights(true)
